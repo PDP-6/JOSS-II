@@ -124,4 +124,123 @@
 			MISC:	 Z;			SWITCH USED BY XMTR, DCOMP, TRST, ADIS, RUL
 			CSS:	 Z;			       	       	SWITCH FOR CHS TO TOP OF LIST
 			CKF:	 DEC:			0;		SET TO DO CHECKSUMS OF THE DRUM
-			
+
+
+;				 PG.11 - STATE QUEUE HEADERS
+
+
+				 DEFINE STAC (A)
+				 <IRP (A)<A'.S=A-S.QUE>>
+				 ,	 DEFININTIONS FOR THE STATE INDEXES.
+				 END.S=37;	   END SIGNAL FOR PARTIAL ORDERING QUEUES
+
+
+				 ,		   THE ORDER OF TABLE REPRESENTS SWAP PRIORITIES
+				 S.QUE=.
+				 TOF:	  Z;		       WAITING FOR TERMINAL "OFF" PROCESSING
+				 ON:	  Z;		       WAITING FOR "ON" PROCESSOR
+				 RC:	  Z;		       CARRIAGE RETURN
+				 RI:	  Z;		       REQUEST IN (INTERRUPT BUTTON)
+				 RIB:	  Z;		       REQUEST IN--NEEDS A BUFFER
+				 UC:	  Z;		       UNCHOKE
+				 QC:	  Z;		       QUEUE FOR MORE CORE
+				 COM:	  Z;		       COMPUTE
+
+				 CU:	  Z;		       CURRENT USER
+
+				 DCT:	  Z;		       WAITING FOR DISC CONTINUE
+				 DIP:	  Z;		       DISC ACTION IN PROGRESS
+				 CK:	  Z;		       CHOKED ON OUTPUT
+				 DQ:	  Z;		       QUEUE FOR ACCESS TO THE DISC
+				 GR:	  Z;		       GREEN (CONSOLE INPUTTING)
+				 DSU:	  Z;		       DRAINING BUFFERS FOR SWITCH TO USER
+				 ABG:	  Z;		       AWAITING A BUFFER FOR GREEN
+				 QP:	  Z;		       PAUSE QUEUE
+				 QDM:	  Z;		       QUEUE FOR TRANSFER TO DRUM
+				 QM:	  Z;		       QUEUE FOR JOSS INITIAL SERVICE
+				 OF:	  XWD    S.Q+N.S-1,SQ; STATION OFF
+
+				 	  STAC <TOF,ON,RC,RI,RIB,UC,QC,COM,CU.
+		;IRP
+					  STAC <DCT,DIP,CK,DQ,GR,DSU,ABG,QP,QDM,QM,OF>
+		;IRP
+				 ,	  ALSO STATE RELATED TABLES AT T1,T10,SI1,S10,BOF10.
+				 	                          S10,S11,S12
+
+
+;								  PG.12 - STATE ACTION FOR INTERPRETER ENTRY
+
+				 ,	   ACTION BIT DEFINITIONS
+
+
+				 CORBIT=20;	  CORE BIT
+	 			 DKBIT=10;	  DISC BIT
+				 RCBIT=1;	  CARRIER RETURN BIT
+				 INBIT=2;	  INTERRUPT BIT
+				 BUFBIT=4;	  BUFFER REQUEST BIT
+				 ONBIT=40;	  ON STATE BIT
+
+   				 ,          ACTION TABLE - TYPE AND ENTRY
+
+				 T10.:
+					    XWD	   0.EJ;	   TOF
+					    XWD	   ONBIT,BJ;	   ON
+					    XWD	   RCBIT,INTENT,   RC
+					    XWD	   INBIT,INTENT	   RI
+					    XWD	   BUFBIT+INBIT,INTENT;		RIB
+					    XWD	   BUFBIT,INTENT;  UC
+					    XWD	   0,INTENT;	   COM
+
+
+;					    	   		   PG. 13 - LOG-ON SCANNER STORAGE
+
+				SCP1:	 POINT  7.0;	       	  	   	   INPUT BYTE BUFFER
+				SCP2:	 POINT 4,CART(B);			   CODE TABLE BYTE POINTER
+				SCP3:	 POINT 7,0;				   OUTPUT BYTE POINTER
+				SCP4:	 POINT 6,SCP2,5;			   POINTER TO POSITION PART
+				SC9:	 NOP   0,0(B);				   POINTER TO EXECUTE TABLE
+
+
+
+;					       			   PG.14 - COUNTERS FOR ACCOUNTING, STATISTICS, AND DEBUGGING
+
+
+				CT10:	Z;			   	   	    MINUTE
+				CT10A:	Z;					    HOUR
+				CT32:	Z;					    U - USERS
+				CT33:	Z;					    GQ - GREEN STATION QUEUE
+				CT2=.
+				CT34:	Z;					    CQ - COMPUTE QUEUE
+				CT35:	Z;					    BQ - BUFFER, OR CHOKE QUEUE
+				CT28:	Z;					    Q - THE QUEUE
+				CT13:	Z;					    COM - CHARGED COMPUTER TIME
+				CT14:	Z;					    ST - STATEMENTS INTERPRETED
+				CT15:	Z;					    A - UNUSED
+				CT16:	Z;					    TL - LINES TRANSMITTED TO USERS
+				CT37:	Z;					    B - BACKSPACES RECEIVED FROM USERS
+				CT31:	Z;					    CR - LINES RECIEVED FROM USERS
+				CT2A=.
+				CT25:	Z;					    1 - COUNTER ONE
+				CT26:	Z;					    2 - COUNTER TWO
+				CT27A:	Z;					    3 - COUNTER THREE
+				CT27B:	Z;					    4 - COUNTER FOUR
+				CT12:	Z;					    U - UNOVERLAPPED I/O TIME (DRUM)
+				CT11:	Z;					    RP - IDLE LOOP COUNT
+				CT39:	Z;					    IC - USERS IN CORE
+				CT19A:	Z;					    SW - DRUM SWAPS
+				CT18:	Z;					    S - SAVES
+				CT18A:	Z;					    D - DELETES
+				CT18B:	Z;					    DI - PRINT DICTIONARY
+				CT19:	Z;					    L - LOADS FROM DISC
+				CT17:	Z;					    SR - STATUS RESPONSES
+				CT23:	Z;					    SE - STATUS ERRORS
+				CT43:	Z;					    1/100TH % OF AVAIL TIME SPENT ON USERS
+				CT3A=.
+				CT46:	Z;					    INPUT INTERRUPTS
+				CT47:	Z;					    OUTPUT INTERRUPTS
+				CT48A:	Z;					    CELLS FOR DISPLAY OF SIZE DISTR,
+				CT48B:	Z;
+				CT48C:	Z;
+				
+
+					   
