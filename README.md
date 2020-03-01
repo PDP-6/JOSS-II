@@ -8,4 +8,4 @@ The URL is: https://www.rand.org/pubs/research_memoranda/RM5437.html
 
 The current goal is to archive the source from a listing for the supervisor in both an easy to read format for both humans and machines.  The ultimate goal is try to get a running system on either aap's or Richard Cornwell's PDP-6 simulators but that may prove difficult at the moment.  We're possibly missing the JOSS intrepreter.
 
-Feel free to drop any clues, hints, or whatever in the issue tracker if you have anything that can help us.
+Feel free to drop any clues, hints, or whatever in the issue tracker at the repo in the PDP-10 organization if you have anything that can help us.
