@@ -267,3 +267,42 @@
 				HEAD:		ASCII /TM UR-GQ-C-B COM-STA I--TL-C/;	30 CHAR
 						ASCII /R-CI-CO T-K-T-#-R-D T%-RP-U-IC	SW-S-L-D/;  42 CHAR
 
+
+
+;						      	              PG. 17 - COUNTERS FOR ACCOUNTING, STATISTICS, AND DEBUGGING
+
+
+
+                               ;               STORAGE FOR SUMMARY DATA
+
+
+			       ,	       BLOCKS FOR DISTRIBUTIONAL DATA
+			       ,	       COUNTER RANGES READING THE DISPLAY FROM THE LEFT ARE:
+			       ,	       >500,500-200,200-100,100-50,50-20,20-10,10-5,5-2,2-1,<
+
+
+
+			       ,	       UNITS FOR THE DISPLAYS ARE:
+			       ,	       SESSION TIME - MINUTES
+			       ,	       COMPUTE TIME - 10 SECONDS
+			       ,	       PROGRAM SIZE - CELLS USED
+			       ,	       GR-GR   TIME - 1/10 MINUTES
+			       ,	       COMP/INTERAC - TICKS
+
+
+			       SESTIM:  ZBLOK 12;  CUMULATIVE SESSION TIME DISTRIBUTION
+		; REPEAT 12,
+		;Z
+				CCTIM:	ZBLOK 12;  CUMULATIVE COMPUTE TIME
+		; REPEAT 12,
+		;Z
+				DSIZE:	ZBLOK 12;	*	SIZE
+		; REPEAT 12,
+		;Z
+				DTIM:	ZBLOK 12;	*   GREEN-GREEN INTERARRIVAL TIME
+		; REPEAT 12,
+		;Z
+				DCPI:	ZBLOK 12;	*	COMPUTE TIME PER INTERACTION
+		; REPEAT 12,
+		;Z
+		
