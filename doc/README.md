@@ -1,24 +1,45 @@
 Documentation for JOSS
 
 The RAND Corporation has a number of documents describing JOSS
-* [The JOSS Primer](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5220.pdf) ([Stanford copy](https://stacks.stanford.edu/file/druid:zk378ys9165/zk378ys9165.pdf))
+* [The JOSS Primer](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5220.pdf) ([Stanford copy](https://stacks.stanford.edu/file/druid:zk378ys9165/zk378ys9165.pdf)) ([local copy](https://github.com/PDP-10/joss-36/blob/master/doc/RM-5220-PR_The_JOSS_Primer_Aug67.pdf))
+
 * [JOSS: Introduction to a Helpful Assistant](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5058.pdf) ([local copy](RM5058.pdf))
-* [JOSS: Problem Solving for Engineers](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5322.pdf)
+
+* [JOSS: Problem Solving for Engineers](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5322.pdf) ([local copy](https://github.com/PDP-10/joss-36/blob/master/doc/RM-5322-PR_JOSS_Problem_Solving_For_Engineers_May67.pdf))
+
 * [The JOSS Notebook](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5367.pdf) ([Stanford copy](https://stacks.stanford.edu/file/druid:sy564pk9916/sy564pk9916.pdf))
-* [JOSS: Scenario of a Filmed Report](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2007/RM4162.pdf)
+
+* [JOSS: Scenario of a Filmed Report](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2007/RM4162.pdf) (lhttps://github.com/PDP-10/joss-36/blob/master/doc/RM-4162-PR_JOSS_Scenario_Of_A_Filmed_Report_Jun64.pdf)
+
 * [JOSS: Console Service Routines (The Distributor)](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2020/RM5044.pdf)
+
 * [JOSS: Arithmetic and Function Evaluation Routines](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2020/RM5028.pdf)
+
 * [JOSS: Central Processing Routines](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2007/RM5270.pdf)
+
 * [JOSS: Assembly Listing of the Supervisor](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2009/RM5437.pdf) ([local copy](RM5437.pdf))
+
 * [JOSS: A Designer's view of an Experimental On-Line computing sytems](https://www.rand.org/content/dam/rand/pubs/papers/2008/P2922.pdf)
-* [JOSS: Examples of the use of an Experimental On-Line Computing Service](https://www.rand.org/content/dam/rand/pubs/papers/2008/P3131.pdf)
+
+* [JOSS: Examples of the use of an Experimental On-Line Computing Service](https://www.rand.org/content/dam/rand/pubs/papers/2008/P3131.pdf) ([local copy](https://github.com/PDP-10/joss-36/blob/master/doc/P-3131_JOSS_Examples_Of_The_Use_Of_An_Experimental_On-Line_Computing_Service_Apr65.pdf))
+
 * [JOSS: Conversations with the Jonniac Open-Shop System](https://www.rand.org/content/dam/rand/pubs/papers/2008/P3146.pdf)
-* [JOSS: Experience with an Experimental computing Service for Users at Remote Typewriter Consoles](https://www.rand.org/content/dam/rand/pubs/papers/2008/P3149.pdf)
+
+* [JOSS: Experience with an Experimental computing Service for Users at Remote Typewriter Consoles](https://www.rand.org/content/dam/rand/pubs/papers/2008/P3149.pdf) ([local copy)](https://github.com/PDP-10/joss-36/blob/master/doc/RM-4162-PR_JOSS_Scenario_Of_A_Filmed_Report_Jun64.pdf)
+
 * [JOSS: Console Design](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5218.pdf) ([Stanford copy](https://stacks.stanford.edu/file/druid:sq769dd9054/sq769dd9054.pdf))
+
 * [JOSS: Disc File System](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5257.pdf)
+
 * [JOSS: User Scheduling and Resource Allocation](https://www.rand.org/pubs/research_memoranda/RM5216.html) ([Stanford copy](https://stacks.stanford.edu/file/druid:sy862wd3604/sy862wd3604.pdf)) ([local copy](https://www.rand.org/pubs/research_memoranda/RM5216.html))
-* [JOSS: Rubrics.](http://bitsavers.org/pdf/rand/joss/P-3560_JOSS_Rubrics_Mar67.pdf)
-* [JOSS: Introduction To The System Implementation](http://bitsavers.org/pdf/rand/joss/P-3486_JOSS_Introduction_To_The_System_Implementation_Nov66.pdf)
+
+* [JOSS: Rubrics.](http://bitsavers.org/pdf/rand/joss/P-3560_JOSS_Rubrics_Mar67.pdf) ([local copy](https://github.com/PDP-10/joss-36/blob/master/doc/P-3560_JOSS_Rubrics_Mar67.pdf))
+
+* [JOSS: Introduction To The System Implementation](http://bitsavers.org/pdf/rand/joss/P-3486_JOSS_Introduction_To_The_System_Implementation_Nov66.pdf) ([local copy](https://github.com/PDP-10/joss-36/blob/master/doc/P-3486_JOSS_Introduction_To_The_System_Implementation_Nov66.pdf))
+
+* [JOSS: Program Notes and Tests](https://github.com/PDP-10/joss-36/blob/master/doc/JOSS_Program_Notes_and_Tests.pdf) (local copy)
+
+  
 
 There are some documents describing the user community and history of JOSS:
 * [The JOSS Newsletter -- November 1967 - June 1971](https://www.rand.org/content/dam/rand/pubs/papers/2006/P3940.7.pdf)
