@@ -9,7 +9,7 @@ The RAND Corporation has a number of documents describing JOSS
 
 * [The JOSS Notebook](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5367.pdf) ([Stanford copy](https://stacks.stanford.edu/file/druid:sy564pk9916/sy564pk9916.pdf))
 
-* [JOSS: Scenario of a Filmed Report](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2007/RM4162.pdf) (lhttps://github.com/PDP-10/joss-36/blob/master/doc/RM-4162-PR_JOSS_Scenario_Of_A_Filmed_Report_Jun64.pdf)
+* [JOSS: Scenario of a Filmed Report](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2007/RM4162.pdf) ([local copy](https://github.com/PDP-10/joss-36/blob/master/doc/RM-4162-PR_JOSS_Scenario_Of_A_Filmed_Report_Jun64.pdf))
 
 * [JOSS: Console Service Routines (The Distributor)](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2020/RM5044.pdf)
 
