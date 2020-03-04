@@ -17,6 +17,8 @@ The RAND Corporation has a number of documents describing JOSS
 * [JOSS: Console Design](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5218.pdf) ([Stanford copy](https://stacks.stanford.edu/file/druid:sq769dd9054/sq769dd9054.pdf))
 * [JOSS: Disc File System](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM5257.pdf)
 * [JOSS: User Scheduling and Resource Allocation](https://www.rand.org/pubs/research_memoranda/RM5216.html) ([Stanford copy](https://stacks.stanford.edu/file/druid:sy862wd3604/sy862wd3604.pdf)) ([local copy](https://www.rand.org/pubs/research_memoranda/RM5216.html))
+*[JOSS: Rubrics from Bitsavers] (http://bitsavers.org/pdf/rand/joss/P-3560_JOSS_Rubrics_Mar67.pdf)
+*[JOSS: Introduction To The System Implementation from Bitsavers] (http://bitsavers.org/pdf/rand/joss/P-3486_JOSS_Introduction_To_The_System_Implementation_Nov66.pdf)
 
 There are some documents describing the user community and history of JOSS:
 * [The JOSS Newsletter -- November 1967 - June 1971](https://www.rand.org/content/dam/rand/pubs/papers/2006/P3940.7.pdf)
@@ -43,8 +45,6 @@ Moreover there are a few RAND documents with JOSS program listings:
 There are a number of documents that mention JOSS in their abstract but are unfortunately not accessible:
 * [JOSS: Accounting and Performance Measurement](https://www.rand.org/pubs/research_memoranda/RM5217.html)
 * [JOSS: 20,000 Hours at the Console--A Statistical Summary](https://www.rand.org/pubs/research_memoranda/RM5359.html)
-* [JOSS: Rubrics.](https://www.rand.org/pubs/papers/P3560.html)
-* [JOSS, introduction ot the sytem implementation](https://www.rand.org/pubs/papers/P3486.html)
 * [A Root-Finding Program for JOSS](https://www.rand.org/pubs/reports/R1550z9.html)
 * [Curve Fitting on JOSS -- Library Program curvefit](https://www.rand.org/pubs/reports/R1550z7.html)
 * [A JOSS Program for the Geodetic Inverse Computation](https://www.rand.org/pubs/papers/P4950.html)
