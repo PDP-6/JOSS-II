@@ -37,7 +37,7 @@ The RAND Corporation has a number of documents describing JOSS
 
 * [JOSS: Introduction To The System Implementation](http://bitsavers.org/pdf/rand/joss/P-3486_JOSS_Introduction_To_The_System_Implementation_Nov66.pdf) ([local copy](https://github.com/PDP-10/joss-36/blob/master/doc/P-3486_JOSS_Introduction_To_The_System_Implementation_Nov66.pdf))
 
-* [JOSS: Program Notes and Tests](https://github.com/PDP-10/joss-36/blob/master/doc/JOSS_Program_Notes_and_Tests.pdf) (local copy)
+* [JOSS: Program Notes and Tests](https://github.com/PDP-10/joss-36/blob/master/doc/JOSS_Program_Notes_and_Tests.pdf) ([local copy](https://github.com/PDP-10/joss-36/blob/master/doc/JOSS_Program_Notes_and_Tests.pdf))
 
   
 
