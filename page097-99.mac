@@ -1,0 +1,118 @@
+^L
+; PG. 97 - DISPLAY STATISTICAL DISTRIBUTIONS
+
+	SUBTTL DISPLAY STATISTICAL DISTRIBUTIONS
+	
+	ODIS:	MOVEI	F,STAT2;		DISPLAY TABLE SIZE
+			MOVE	J,STAT1(F);		STAT TABLE POINTER
+			TSX		TABO;			FORMAT AND OUTPUT STAT LINE
+			SOJGE	F,.-2
+			DONE
+			
+	STAT1:
+			XWD		0,T1;			T11, T10, AND T9 ARE USED
+			XWD		0,T10;			BY JOE TO RECORD COUNTS OF EXECUTION
+			XWD		0,T9;			BY VERB TYPE
+			XWD		0,TINT;			TOTAL I/O CHARACTERS
+			XWD		0,OINT;			OUTPUT INTERRUPTS
+			XWD		0,IINT;			OUTPUT INTERRUPTS
+			XWD		0,CPOL;			CHAR/OUTPUT LINE
+			XWD		0,CPIL;			CHAR/INPUT LINE
+			XWD		0,DSIZE;		SIZE
+			XWD		0,DCPI;			COMPUTE TIME PER INTERACTION
+			XWD		0,DTIM;			INTERACTION TIME
+			XWD		0,CCTIM;		COMPUTE TIME
+			XWD		0,SESTIM;		SESSION TIME
+			XWD		0,T5;			INTERPRETATION RATE
+			XWD		0,T8;			TASK TURN-AROUND TIME
+			XWD		0,T7;			MISC. STATISTICS
+			XWD		0,T6;			GENERAL COUNTS AND BLOCKSIZE DISTRIB.
+	STAT2=.-STAT1-1
+	
+^L
+
+; pg. 98 - count time and gather statistics
+
+	stat:	move	b,sec
+			cain	b,^d30
+			tsx		trst;			restart tape
+			subi	b^d60
+			jumpl	b,st2.6;		done if not a new minute
+			
+	;		new minute
+	
+			hrrei	s,-1;			context for console i/o
+			movem	b,sec
+			tsx		up1;			convert date to ascii in case of recurrent change
+			aos		b,min;			bump the minute count
+			idivi	b,k3;
+			fsw d
+			
+			trnn	d,dui;			check display switch
+			skipn	c;				display initials if fp(min/k3)=0
+			fsw		d
+			
+			trzn	d,dstat;		skip if we are to display statistics
+			jrst	sta3
+			movem	d,switch
+			tsx		odis;			display statistics
+	sta3:	fswd
+	
+			trnn	d,olsw;			skip if display
+			jrst	sta1
+			movei	f,stat2+1
+			ldb		j,c5
+			caile	j,sta2
+			jrst	sta1
+			jumpe	j,sta1
+			sub		f,j
+			move	j,stat1(f)
+			tsx		tabo
+			
+^l
+; pg. 99 - count time and gather statistics
+
+	sta1:	move	d,[point 6,ct48a]
+			movei	b,4
+			aos		t6
+			ildb	c,d
+			addm	c,t6+5(b)
+			sojg	b,.-2
+			move	b,ct18
+			addm	t6+5;			total saves
+			move	b,ct19
+			addm	b,t6+4;			total loads
+			move	b,ct19a
+			addm	b,t6+3;			total drum actions
+			move 	b,ct14
+			addm	b,t6+1;			total ticks
+			move	b,ct18a
+			addm	b,t7;			discards
+			skipe	ct11;			skip if a full use minute
+			jrst	sta1.5
+			aos		t7+7;			count them
+			movei	b,^d3600
+			sub		b,ct13;			compute overhead ticks
+			addm	b,t7+8;			and accumulate them
+	sta1.5:	move	b,min
+			subi	b,^d60
+			jumpl	b,st1;			jump if not a new hour
+			
+	; 		new hour
+	
+			setzm	ct17
+			setzm	ct23;			clear log counters
+			
+			movem	b,min;			update minutes
+			aos		b,hr
+			trnn	b,3;			output statistic each four hours
+			tsx		odis
+			move	b,hr
+			subi	b,^d24
+			jumpl	b,sta2;			jump if not a new day
+			movem	b,hr
+			tsx		udate;			go to increment date
+	sta2:	tsx		hmes;			heading line
+			jrst	st1
+			
+			
