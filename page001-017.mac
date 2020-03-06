@@ -123,7 +123,8 @@
 			>
 					DEFINE XMT (M,A); TRANSMIT M CHARACTERS FROM A
 			<OPDEF X[M'B12]
-			
+				X A>
+				
 					DEFINE ZBLOK (N)
 			<REPEAT N,
 			<Z
