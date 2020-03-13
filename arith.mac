@@ -1,0 +1,17 @@
+TITLE ARITH
+
+;Stub file for ARITH component.
+
+;The arithmetic processor contains all of the arithmetic and function
+;evaluation routines and various other subroutines. This package is a
+;subcomponent of the interpreter and has no interface with the
+;monitor.
+
+;The AID version of ARITH.MAC has these symbols that are EXTERN
+;in SU.MAC.
+INTERN T80,T80.99
+
+T80=0
+T80.99=0
+
+END
