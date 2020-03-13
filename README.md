@@ -1,4 +1,4 @@
-# JOSS (Supervisor?) for DEC 36-bit machines
+# JOSS Supervisor for DEC 36-bit machines
 
 This is slowly being copied from RAND Corporation's source listing of JOSS Supervisor for the PDP-6.
 
