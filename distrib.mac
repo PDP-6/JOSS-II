@@ -1,0 +1,6 @@
+TITLE DISTRIB
+
+;The distributor handles all I/O to and from the JOSS consoles and
+;teletypes (except the PDP-6 control teletype).
+
+END
