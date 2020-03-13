@@ -1,0 +1,37 @@
+TITLE DISC
+
+;Stub file for DISC compoment.
+
+;According to RM5257, DISC communicates through these symbols.
+;Some are defined in SU.
+INTERN FILE,KEY,PROG,NAME,ACTION,TYPE,FLAG
+INTERN DISC.S,DISC.D,DISC.C,D.TIME,RESULT
+
+FILE:	Z;	User file number.
+KEY:	Z;	User file code.
+PROG:	Z;	User item number.
+NAME:	Z;	User item code.
+ACTION:	Z;	1 = RECALL, etc.
+TYPE:	Z;	Interpreter code ...
+FLAG:	Z;	Supplied by Interpreter when filing ...
+
+;The main interface with the Monitor is through the cell DISC.S.
+DISC.S:	Z
+
+;The Monitor does accounting for the number of record/days of
+;disc usage.  This information is supplied by the Processor via
+;a set of cells labeled DISC.D.
+DISC.D=0
+
+;Entry to the Disc Processor is always via JSR to DISC.C.
+DISC.C:	Z
+	JRST @DISC.C
+
+;One further inferface with the Monitor is via the cell D.TIME.
+D.TIME=0
+
+;The Processor reports back to the Interpreter by filling in the
+;communication cell RESULT.
+RESULT:	Z
+
+END
