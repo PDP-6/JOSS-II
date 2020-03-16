@@ -2,6 +2,8 @@ TITLE DDT
 
 ;Stub file for DDT.
 
+INTERN DDT
+
 DDT=.
 
 END

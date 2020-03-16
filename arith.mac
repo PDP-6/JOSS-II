@@ -10,8 +10,12 @@ TITLE ARITH
 ;The AID version of ARITH.MAC has these symbols that are EXTERN
 ;in SU.MAC.
 INTERN T80,T80.99
+;This is in INTERP.MAC.
+INTERN INTBEG
 
 T80=0
 T80.99=0
+
+INTBEG:	HALT .
 
 END
