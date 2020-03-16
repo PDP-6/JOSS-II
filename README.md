@@ -1,8 +1,8 @@
 # JOSS Supervisor for DEC 36-bit machines
 
-This is slowly being copied from RAND Corporation's source listing of JOSS Supervisor for the PDP-6.
+This is slowly being copied from RAND Corporation's [source listing of JOSS Supervisor for the PDP-6](https://www.rand.org/pubs/research_memoranda/RM5437.html).
 
-The URL is: https://www.rand.org/pubs/research_memoranda/RM5437.html
+There is [additional documentation][https://PDP-10.github.io/joss-36/] available too.
 
 ***CAUTION***:This has obviously been untested, incomplete, and is in no functional state at the moment.
 
