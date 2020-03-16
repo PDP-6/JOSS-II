@@ -5,7 +5,7 @@ TITLE DISC
 ;According to RM5257, DISC communicates through these symbols.
 ;Some are defined in SU.
 INTERN FILE,KEY,PROG,NAME,ACTION,TYPE,FLAG
-INTERN DISC.S,DISC.D,DISC.C,D.TIME,RESULT
+INTERN DISC.S,DISC.D,DISC.C,D.TIME,RESULT,DBUF
 
 FILE:	Z;	User file number.
 KEY:	Z;	User file code.
@@ -33,5 +33,8 @@ D.TIME=0
 ;The Processor reports back to the Interpreter by filling in the
 ;communication cell RESULT.
 RESULT:	Z
+
+;Just a guess.
+DBUF:	BLOCK 128
 
 END
