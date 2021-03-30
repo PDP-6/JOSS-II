@@ -39,6 +39,7 @@ Other JOSS-related documents:
 * [H-616 JOSS Console Instruction Manual](http://bitsavers.org/pdf/dec/pdp6/H-616_JOSSconsole_Mar66.pdf)
 * [DEC-10-AMZC-D MACRO-10 Assembler Programmer's Reference Manual](DEC-10-AMZC-D_MACRO-10_Assembler_Programmers_Reference_Manual_Jun72.pdf)
 * [Datamation Vol. 10 No. 11, p32 The JOSS System](Datamation_No._11_Nov64.pdf)
+* [Type 630 Communication System, Apr. 64](630_Data_Communication_System_Apr64.pdf), [DeRamp copy](https://deramp.com/downloads/mfe_archive/011-Digital%20Equipment%20Corporation/40%20System%20Interfaces/630%20Communications%20Equipment/630_Data_Communication_System_Apr64.pdf)
 
 Moreover there are a few RAND documents with JOSS program listings:
 * [RM-6338-ARPA A Dynamic Programming Approach to Network Problems : A Model for On-Line Computer Systems](https://archive.org/download/DTIC_AD0711811/DTIC_AD0711811.pdf)
