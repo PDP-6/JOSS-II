@@ -1,8 +1,8 @@
 # JOSS-II Supervisor for DEC 36-bit machines
 
-This is slowly being copied from RAND Corporation's [source listing of JOSS Supervisor for the PDP-6](https://pdp-6.github.io/JOSS-II/docs/RM-5437-PR_JOSS_Assembly_Listing_of_the_Supervisor.pdf) ([RAND original](https://www.rand.org/pubs/research_memoranda/RM5437.html)).
+This is slowly being copied from RAND Corporation's [source listing of JOSS Supervisor for the PDP-6](https://pdp-6.github.io/JOSS-II/RM-5437-PR_JOSS_Assembly_Listing_of_the_Supervisor.pdf) ([RAND original](https://www.rand.org/pubs/research_memoranda/RM5437.html)).
 
-There is [additional documentation](https://pdp-6.github.io/JOSS-II/docs/) available too.
+There is [additional documentation](https://pdp-6.github.io/JOSS-II/) available too.
 
 ***CAUTION***: This has obviously been untested, incomplete, and is in no functional state at the moment.
 
