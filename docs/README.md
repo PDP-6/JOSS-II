@@ -20,9 +20,13 @@ The RAND Corporation has a number of documents describing JOSS
 * [P-3131 JOSS: Examples of the use of an Experimental On-Line Computing Service](P-3131_JOSS_Examples_Of_The_Use_Of_An_Experimental_On-Line_Computing_Service_Apr65.pdf) ([RAND original](https://www.rand.org/content/dam/rand/pubs/papers/2008/P3131.pdf))
 * [P-2922 JOSS: A Designer's view of an Experimental On-Line computing sytems](P-2922_JOSS_A_Designers_View_Of_An_Experimental_On-Line_Computing_System_Aug64.pdf) ([RAND original](https://www.rand.org/content/dam/rand/pubs/papers/2008/P2922.pdf))
 * [JOSS: Program Notes and Tests](JOSS_Program_Notes_and_Tests.pdf) ([Bitsavers copy](http://www.bitsavers.org/pdf/rand/joss/JOSS_Program_Notes_and_Tests.pdf))
+* [RM-5359-PR JOSS: 20,000 Hours at the Console--A Statistical Summary](RM-5359-PR_afips_fall_1967_JOSS_2000_Hours_at_the_Console.pdf)
+  * Extracted from *AFIPS Conference Proceedings, Vol. 31, 1967: Fall Joint Computer Conference*, pp. 769-777.
+    * [Bitsavers original](https://www.mirrorservice.org/sites/www.bitsavers.org/pdf/afips/1967-11_%2331.pdf)
 
 There are some documents describing the user community and history of JOSS:
-* [R-918 The JOSS Years: Reflections on an Experiment](https://www.rand.org/content/dam/rand/pubs/reports/2008/R918.pdf)
+
+* https://www.rand.org/content/dam/rand/pubs/reports/2008/R918.pdf
 * [P-7857 Operations Research and the RAND Corporation](https://www.rand.org/content/dam/rand/pubs/papers/2016/P7857.pdf)
 * [P-7172 Artificial Intelligence: A Rand Perspective](https://www.rand.org/content/dam/rand/pubs/papers/2008/P7172.pdf) ([Stanford copy](https://stacks.stanford.edu/file/druid:cj328ns9771/cj328ns9771.pdf))
 * [P-3940/7 The JOSS Newsletter -- November 1967 - June 1971](https://www.rand.org/content/dam/rand/pubs/papers/2006/P3940.7.pdf)
@@ -34,6 +38,7 @@ There are some documents describing the user community and history of JOSS:
 * [Interview with Willis Ware](https://www.rand.org/content/dam/rand/pubs/reprints/2011/RAND_RP1431.pdf)
 
 Other JOSS-related documents:
+
 * [Picture of a JOSS Console](http://bitsavers.org/pdf/dec/pdp6/P2324_JOSS_Console_Picture.jpg)
 * [JOSS Session - JOHNNIAC OPEN-SHOP SYTEM](https://books.google.com.tw/books?id=Hy-jBQAAQBAJ&pg=PA499&lpg=PA499&dq=%22JOSS+Language%22&source=bl&ots=jl4I1hAYY-&sig=ACfU3U3VIPAO3CYiQrQHpgX3eVdViyYRjw&hl=en&sa=X&ved=2ahUKEwi9rvLLp_7nAhWszIsBHem0AWUQ6AEwBnoECAsQAQ#v=onepage&q=%22JOSS%20Language%22&f=false)
 * [H-616 JOSS Console Instruction Manual](http://bitsavers.org/pdf/dec/pdp6/H-616_JOSSconsole_Mar66.pdf)
@@ -42,6 +47,7 @@ Other JOSS-related documents:
 * [Type 630 Data Communication System, Apr. 64](630_Data_Communication_System_Apr64.pdf), [DeRamp copy](https://deramp.com/downloads/mfe_archive/011-Digital%20Equipment%20Corporation/40%20System%20Interfaces/630%20Communications%20Equipment/630_Data_Communication_System_Apr64.pdf)
 
 Moreover there are a few RAND documents with JOSS program listings:
+
 * [RM-6338-ARPA A Dynamic Programming Approach to Network Problems : A Model for On-Line Computer Systems](https://archive.org/download/DTIC_AD0711811/DTIC_AD0711811.pdf)
 * [RM-6302-PR Resource Analysis Model for the Arkansas State Police](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM6302.pdf)
 * [RM-6279-PR JASP: A Simulation Language for a Time-Shared System](https://www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM6279.pdf)
@@ -65,12 +71,12 @@ Moreover there are a few RAND documents with JOSS program listings:
 * [P-3146 Conversations with the Johnniac Open-Shop System](https://www.rand.org/content/dam/rand/pubs/papers/2008/P3146.pdf)
 
 There are a number of documents that mention JOSS in their abstract but are unfortunately not accessible:
+
 * [RM-6359-PR MEMO: A Model for Evaluating Missile Observation Information.](https://www.rand.org/pubs/research_memoranda/RM6359.html)
 * [RM-6262-PR Observations of the 1969 Inferior Conjunction and Greatest Western Elongation of Venus : Data Catalog and Preliminary Analysis](https://www.rand.org/pubs/research_memoranda/RM6262.html)
 * [RM-6204-PR A Cost Analysis of Minimum Distance TV Networking for Broadcasting Medical Information](https://www.rand.org/pubs/research_memoranda/RM6204.html)
 * [RM-5846-PR Applying the Concepts of Program Budgeting to the New York City Police Department](https://www.rand.org/pubs/research_memoranda/RM5846.html)
 * [RM-5466-PR STROP: Player's Manual for JOSS Version](https://www.rand.org/pubs/research_memoranda/RM5466.html)
-* [RM-5359-PR JOSS: 20,000 Hours at the Console--A Statistical Summary](https://www.rand.org/pubs/research_memoranda/RM5359.html)
 * [RM-5260-PR Practical Aspects of Calculating Skin Friction Coefficients by Coles' Theory of Compressible Turbulent Flows](https://www.rand.org/pubs/research_memoranda/RM5260.html)
 * [RM-5217-PR JOSS: Accounting and Performance Measurement](https://www.rand.org/pubs/research_memoranda/RM5217.html)
 * [R-723 Estimation in a Model that Arises from Linearization in Nonlinear Least Squares Analysis](https://www.rand.org/pubs/reports/R0723.html)
