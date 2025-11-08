@@ -26,7 +26,7 @@ The RAND Corporation has a number of documents describing JOSS
 
 There are some documents describing the user community and history of JOSS:
 
-* https://www.rand.org/content/dam/rand/pubs/reports/2008/R918.pdf
+* [The JOSS Years: Reflections on an Experiment](https://www.rand.org/content/dam/rand/pubs/reports/2008/R918.pdf)
 * [P-7857 Operations Research and the RAND Corporation](https://www.rand.org/content/dam/rand/pubs/papers/2016/P7857.pdf)
 * [P-7172 Artificial Intelligence: A Rand Perspective](https://www.rand.org/content/dam/rand/pubs/papers/2008/P7172.pdf) ([Stanford copy](https://stacks.stanford.edu/file/druid:cj328ns9771/cj328ns9771.pdf))
 * [P-3940/7 The JOSS Newsletter -- November 1967 - June 1971](https://www.rand.org/content/dam/rand/pubs/papers/2006/P3940.7.pdf)
