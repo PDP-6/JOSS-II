@@ -1,0 +1,27 @@
+This is the logic for the distributor.
+
+This will likely be converted into a Mermaid diagram later.
+
+Major blocks of code seem to be notated as label.sublabel.
+
+1. Console input interrupt
+	Jumped to via the channel trap label INP
+	INP >= OUP
+	C25:	Get the station number n
+		Pick up the station control register n
+		Read in the character & release scanner
+		Station disabled?
+			Yes.  Go to C25.90
+		Is it a TTY?
+			Yes. Go to TC25
+		Is the SCR on?
+			No.  Go to C25.06.
+	.03:	Convert character into JOSS encoding
+	
+	Normal:	Is the SCR green?
+				No.  Go to C25.05
+			Advance pointer via C25.63
+			Store char in buffer
+			Dismiss break and exit
+				
+		
